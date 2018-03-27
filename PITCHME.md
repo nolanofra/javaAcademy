@@ -26,6 +26,15 @@ easier to understand and cheaper to modify without changing its observable behav
 
 * Application coupled to database schema
 * Change interfaces
-* 
+
 ---
+
+### Feature envy
+
+* a method that seems more interested in a class other than the one it is in
+
+| Pre-refactoring| Post-refactoring|
+| ---------------|:---------------:|	
+|```             |                 |
+
 
