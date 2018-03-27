@@ -17,7 +17,23 @@ if (creditCard.Number.length() > 16) {
 if (creditCard.Number.length() > 16) {     
   // do something else because it's valid  
 }                                          
+```
+
++++
+
+# Duplicated Code
+
+Extract method
+
 ```                                        
+if (creditCard.Number.isValid()) {      
+  // do something because it's valid       
+}                                          
+...                                        
+if (creditCard.Number.isValid()) {     
+  // do something else because it's valid  
+}                                          
+```
 
 ---
 
